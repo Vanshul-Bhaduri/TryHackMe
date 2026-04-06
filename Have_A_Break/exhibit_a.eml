@@ -1,0 +1,112 @@
+Delivered-To: redakce@novinybrno.cz
+Received: by 2002:a05:640c:2247:b0:261:9202:4f12 with SMTP id h7csp418823eiw;
+        Thu, 27 Mar 2026 23:14:58 +0100 (CET)
+X-Received: by 2002:a05:6402:4112:b0:55d:741:a88c with SMTP id
+        4fb4d7f45d1cf-55d0741a632mr880241a12.4.1774903498112;
+        Thu, 27 Mar 2026 23:14:57 +0100 (CET)
+ARC-Seal: i=1; a=rsa-sha256; t=1774903497; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Rk9Lm2awqoHf4KvOmErTWtV2WuOiz17Sq3Vi4Errea90wbn/yEusD3E5BvvhhAHhqZ
+         TYlzHWa4xclKw6+xFtYxEPbC64xXYj6IGrXi9jM8ROwFtl3qMIgNNOx5SGV58DhVrQgn
+         oSc/KTjx/oipuN5H5DfUDSPLtzZBuppoMEEdv7k6AI9jPza3+QZ84Yi7wKtgCHMFEXTC
+         kmhXaXudxzFSIFUMj4fcT8qBT4veB3/yM1UQvAt0FhBxlIclweQ4HMO5Mb6MfqDz+cFl
+         toTuFR1GmBskW8raiyqlWoqXVgArArInHmEgiC3IcmOhx2wDVLUrrtQPAZErtBCGVUAx
+         ZcDQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+        s=arc-20240605;
+        h=content-transfer-encoding:mime-version:message-id:user-agent
+         :subject:to:from:date:dkim-signature;
+        bh=PQjqYwtpl/t+dOdAkHK9pPbBiFsK83HI6z5h/7TUtQ4=;
+        fh=q/LR6eZLpYAtbPWURJRmSY/XBACLHwBYJTCfJKSkZ+4=;
+        b=WNQxzO1MfMIMIyMQKxQGV588ueD/wMN0mm90WfQ3HTPxR3vqWe5O+rTnEu69Fg/R7Z
+         +8i2m2yNeFqWpUUY1nFo5BidkWqxJ9jLEE8y21liadSyx3DynWjk6knMUDRrZJQXHEMe
+         MG6PF9UpStILew+tzdrgHjPvtQaxHs9xvC+SArjKv7D1q09kjJAGiXdxiA7mNtM94/xM
+         FDeVfz2rxmQdgZNOvlA4opy8p40WhgwssooH1fjl8WcMUQCIoA9mPzSU3826dHRhIOcF
+         pGzMIxdqjFqqJ5I1D4Nfsg3kyWSNUktEUbWmnFR84sgISl7ZMs8rQ2G2P+1xXQU6/yer
+         ZqYg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=nFGXUmGC;
+       spf=pass (google.com: domain of notmyname2847@gmail.com designates
+         209.85.220.41 as permitted sender)
+         smtp.mailfrom=notmyname2847@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <notmyname2847@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.novinybrno.cz with SMTPS id
+        4fb4d7f45d1cf-55d033ad114sor221136a12.8.2026.03.27.23.14.57
+        for <redakce@novinybrno.cz>
+        (Google Transport Security);
+        Thu, 27 Mar 2026 23:14:57 +0100 (CET)
+Received-SPF: pass (google.com: domain of notmyname2847@gmail.com designates
+        209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=nFGXUmGC;
+       spf=pass (google.com: domain of notmyname2847@gmail.com designates
+         209.85.220.41 as permitted sender)
+         smtp.mailfrom=notmyname2847@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1774903497; x=1775508297;
+        h=content-transfer-encoding:mime-version:message-id:user-agent
+         :subject:to:from:date:from:to:cc:subject:date:message-id:reply-to;
+        bh=PQjqYwtpl/t+dOdAkHK9pPbBiFsK83HI6z5h/7TUtQ4=;
+        b=nFGXUmGCjbAdHMoRvUeruvskR5JmSiEHXmCvrUpmQDz8Mk7t7gXWgTOi595nC5m9iU
+         Q7xfb13gqFBfZ7ezw1zYnnDHSYU/F7i+5thptGMIjIvhmTlpFGAmB/NxyI4L5sROa/WI
+         SLpyGIG/fVLqJHEKW4MpYoobWZXdb/ihPDrBP/k9xYhZLvKA7I1kgp0o+ckIQJ3kLtGm
+         t+sn4Xd4pImfkRd3cbvxMbER1DTqXwn0J4tk04epZauFlzfVKL3TD4u5dBT1Vsqv1zsf
+         g9pLDxEMDmZaM5id3lrXeG7cWvfcK5d7LuTkHE9NOf3SprTgmByjDdMPNms/L7k///I9
+         JqdQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1774903497; x=1775508297;
+        h=content-transfer-encoding:mime-version:message-id:user-agent
+         :subject:to:from:date:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=PQjqYwtpl/t+dOdAkHK9pPbBiFsK83HI6z5h/7TUtQ4=;
+        b=H7u09Nj+qdrWbwSgZhbCkMYdWC/rQt0uIdZfhn2ZiSfOHVtviVd4QrAfKxGmKnErWr
+         dP2v3hSNIIDYfKw9kU/N99l341AJ2NSKPYMFBAZG2sHDtZq+6HIXD4EakQpAd+OENqO1
+         qYT9iB285px1KZ4BdgPA1f3obwhNQRKofQb+Lz0izs8dVI5AQZOWBvEAlzL4DI1iOaP4
+         k48ZosyR2DZuJBVTOWiVswj0XRfp8Of2xdGY+O4H+VOO0C+fyWHQHXSRL5AHiA9SaOJ
+         qiJfqWRHTGRmu6qttsMjQDzvpXdiZs1QLMSmXfCeGT3Xc72xDe3G1GG1XZjry3MoslUC
+         gFaw==
+X-Gm-Message-State: AOJu0YwK/Cas+2jLTABmcDr3VKj+80fcyiZMprOMeg8/6lyl3mMVUdgZ
+        xZdJlKhcUoUPWg8LGYbrXp5TUPMb2HHtmyE7uYdqiGxFeH3Sxt4f17TjySRLkutYw
+X-Gm-Gg: ATEYQzxt0/tkr5YMc84irwgsQZjivIYVgwhvFbscDCKt2qVpCiIVJGXLaW72MbA5o01
+        ldZX3skqs50xBiZdaLOoa5B6yTN11YD8Vy2Y79AWNwlBhe7vRTgnUsfabbmu7HmZhFLbI9q5hd4
+        +ZmXohXbJ5/cs1gcdw2yBreHyU86Rwlv9C39T12t7SKNYvfiCiV9LIB/0QyyVviOy7st0hmE/jS
+        PvCw4x8qufLBqqjVqnYg6gJgVgh7zZlo/0enEF4RroXFHDUoqFjj3lA8YVtNbsn0I1biwtCgQW4
+        62/esQztRv5xFPgLbYouJxaKiVPX/VHMVR/AILQoczvaV2XXEFIFyDFZQPIFB6ARI88cx9LCEbu
+        oiAXMojOOXVbiwr434/pFGzC6uNb1WL7gnx1fb82offC5XroEbH9IPQQbGY1QUrcQAArLNqVL6F
+        +cFX3aW6tG4SM7QmYc6ShkcXLFNwoHSIT5bA==
+X-Received: by 2002:a05:6402:4892:b0:66b:c5e3:77f2 with SMTP id
+        4fb4d7f45d1cf-66e05113643mr1182512a12.12.1774903497214;
+        Thu, 27 Mar 2026 23:14:57 +0100 (CET)
+Received: from [193.32.249.132] ([193.32.249.132])
+        by smtp.gmail.com with ESMTPSA id
+        4fb4d7f45d1cf-66e02d37620sm407278a12.2.2026.03.27.23.14.55
+        for <redakce@novinybrno.cz>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 27 Mar 2026 23:14:55 +0100 (CET)
+Date: Thu, 27 Mar 2026 23:14:47 +0100
+From: "Anonymous" <notmyname2847@gmail.com>
+To: redakce@novinybrno.cz
+Subject: Nestle truck - this was not random
+User-Agent: K-9 Mail for Android
+Message-ID: <A28CEF9B-4E09-5DB7-C7BB-52F6315EDD7C@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+I work for the logistics company that was moving the Nestle shipment.
+
+I do not know who took it or where it is. But I know it was not
+opportunistic. Someone gave the route details to someone outside
+before that truck left. I saw unusual activity in our internal
+system the night before departure. Access to a file that had no
+reason to be touched at that hour.
+
+I am not going to the police directly. I do not know who to trust
+inside the company right now. I am sending this to you because you
+cover local business and I think this should be public.
+
+I cannot say more about who I am.

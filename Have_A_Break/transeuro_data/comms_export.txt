@@ -1,0 +1,100 @@
+=== TransEuro Logistics s.r.o. — Internal Messaging Export ===
+Team: Route Planning + Dispatch (Brno)
+Period: 14 March 2026 – 27 March 2026
+Exported by: IT Systems (BR-0255) under judicial authority
+Reference: EC-2026-0847-CZ
+===
+
+[2026-03-15 09:14] br0204@transeuro-log.cz
+WK12 and WK13 driver scheduling draft uploaded to the shared
+folder. Please review before end of day.
+
+[2026-03-15 09:44] br0291@transeuro-log.cz
+Will review this afternoon.
+
+[2026-03-15 10:12] pr0122@transeuro-log.cz
+Quick question — do we have an updated contact for the Ferentino
+loading bay? The number I have on file keeps ringing out.
+
+[2026-03-15 10:44] br0204@transeuro-log.cz
+I will check with Jana and get back to you.
+
+[2026-03-17 11:02] os0047@transeuro-log.cz
+Before I take the IT-PL run next week — what is the recommended
+overnight stop on the Czech stretch? Last time I used the one
+near Olomouc but I was not sure if that is still on the
+approved list.
+
+[2026-03-17 11:34] br0204@transeuro-log.cz
+Still approved. ORLEN service area on D1, just before the
+Olomouc junction. Good overnight parking, 24h fuel. It is
+what most drivers use on that corridor.
+
+[2026-03-17 14:05] br0334@transeuro-log.cz
+Radoslav — I have the Ferentino contact. Sending separately.
+
+[2026-03-18 08:44] br0204@transeuro-log.cz
+Two new stops added to the CZ-PL approved list following driver
+feedback. Both verified for overnight capacity. Details in the
+route planning folder.
+
+[2026-03-19 16:22] pr0122@transeuro-log.cz
+Also flagging — I had a look at the IT-PL route file yesterday
+evening, noticed the waypoint list had not been updated since
+Q4. Is that intentional or should I update it?
+
+[2026-03-19 16:58] br0291@transeuro-log.cz
+I updated it last week. You might be looking at a cached
+version. Current file is in the Q1 folder.
+
+[2026-03-21 14:08] os0047@transeuro-log.cz
+Vehicle 09 still showing a fault on the rear-left pressure
+sensor. Maintenance have cleared it twice and say it is a
+ghost reading. I am not taking it on a long haul until it
+is properly resolved.
+
+[2026-03-21 14:30] br0291@transeuro-log.cz
+Logged with BR-0255. Will follow up.
+
+[2026-03-23 16:05] br0204@transeuro-log.cz
+Easter period reminder — reduced driver availability from
+18 April. Any priority loads for that window should go to
+pr0114 by end of March.
+
+[2026-03-24 09:11] br0255@transeuro-log.cz
+Reminder to all staff — personal email addresses must not be
+used for accessing or sharing company files. This morning a
+request was received from an external address
+(kraliknovak09@gmail.com) to access files in the route
+planning shared folder. The request was blocked. Please use
+your company account for all work-related activity.
+
+[2026-03-24 23:41] br0312@transeuro-log.cz
+WK13 driver assignments updated — three changes from the
+draft, all confirmed. Notes in the schedule file.
+
+[2026-03-25 09:20] br0204@transeuro-log.cz
+Overnight roadworks on D1 between Brno and Vyskov from 20:00
+this week. Added a 30 minute buffer to the IT-PL departure
+window in the schedule.
+
+[2026-03-25 09:44] br0291@transeuro-log.cz
+Noted, thank you.
+
+[2026-03-25 10:22] pr0122@transeuro-log.cz
+I keep needing to reference the IT-PL file for the Q2
+planning work. Should I get standing read access or keep
+requesting each time?
+
+[2026-03-25 10:55] br0255@transeuro-log.cz
+I can set up standing VIEW access for the Prague team on
+the IT-PL file. Will action this afternoon.
+
+[2026-03-27 09:14] br0204@transeuro-log.cz
+Getting access denied on the IT-PL route folder this
+morning. Is anyone else seeing this?
+
+[2026-03-27 11:22] br0255@transeuro-log.cz
+There is a temporary restriction on certain route files in
+place from this morning. Management directive. I cannot give
+more detail at this stage.

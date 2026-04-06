@@ -1,0 +1,16 @@
+employee_id,role,office,hometown,email
+BR-0188,Finance & Compliance,Brno,Brno,br0188@transeuro-log.cz
+BR-0204,Route Planner,Brno,Zlín,br0204@transeuro-log.cz
+BR-0255,IT Systems,Brno,Brno,br0255@transeuro-log.cz
+BR-0291,Route Planner,Brno,Králice nad Oslavou,br0291@transeuro-log.cz
+BR-0312,Dispatch Operator,Brno,Olomouc,br0312@transeuro-log.cz
+BR-0334,Route Planner,Brno,Brno,br0334@transeuro-log.cz
+BR-0341,HR & Administration,Brno,Kuřim,br0341@transeuro-log.cz
+OS-0047,Senior Driver,Ostrava,Ostrava,os0047@transeuro-log.cz
+OS-0061,Dispatch Operator,Ostrava,Opava,os0061@transeuro-log.cz
+OS-0078,Driver,Ostrava,Frýdek-Místek,os0078@transeuro-log.cz
+OS-0084,Logistics Coordinator,Ostrava,Karviná,os0084@transeuro-log.cz
+PR-0098,Logistics Coordinator,Prague,Plzeň,pr0098@transeuro-log.cz
+PR-0114,Logistics Coordinator,Prague,Prague,pr0114@transeuro-log.cz
+PR-0122,Route Planner,Prague,Kladno,pr0122@transeuro-log.cz
+PR-0139,Finance & Compliance,Prague,Prague,pr0139@transeuro-log.cz
